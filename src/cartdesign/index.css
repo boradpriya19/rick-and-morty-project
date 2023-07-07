@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top:50px;
+}
+
+.start-part{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.cart-design{
+    
+ margin-left: 5%;
+ width: 40%;
+ margin-right: 5%;
+
+}
+
+.cart-box{
+    background-color:gray;
+    color: white;
+    display: flex;
+     margin-bottom: 50px;
+     margin-top: 50px;
+    border-radius: 10px;
+}
+
+.reddot{
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.greendot{
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color:green;
+}
+
+.graydot{
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color:gray;
+}
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+.contant-1{
+    font-size: 20px;
+}
+
+.contant-3{
+    color: rgb(71, 71, 71);
+    font-size: 13px;
+    margin-top: 20px;
+}
+.contant-6{
+    color:rgb(71, 71, 71) ;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.contant-4{
+    font-size: 22px;
+}
+
+.contant-1:hover{
+    color: rgb(255, 115, 0);
+}
+
+.contant-4:hover{
+    color: rgb(255, 115, 0);
+}
+
+.contant-7:hover{
+    color: rgb(255, 115, 0);
+} 
+
+@media screen and (max-width:500px){
+    .cart-design{
+        width: 100%;
+    }
+}
